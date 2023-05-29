@@ -18,7 +18,7 @@ const Rating = React.memo(({ rating }) => (
   </View>
 ));
 
-// render search screen book
+// render search screen books
 function Book({ book, bookList }) {
   const { margin, colors, normalize } = useTheme();
   const BOOKW = normalize(120, 150);
